@@ -99,25 +99,8 @@ sudo yum install -y git
 git clone https://github.com/Oseenaholo/learning-app-ecommerce.git /var/www/html/
 ```
 
-5. Update index.php
 
-
-```
-sudo sed -i 's/172.20.1.101/localhost/g' /var/www/html/index.php
-
-              <?php
-                        $link = mysqli_connect('172.20.1.101', 'ecomuser', 'ecompassword', 'ecomdb');
-                        if ($link) {
-                        $res = mysqli_query($link, "select * from products;");
-                        while ($row = mysqli_fetch_assoc($res)) { ?>
-```
-
-> ON a multi-node setup remember to provide the IP address of the database server here.
-```
-sudo sed -i 's/172.20.1.101/localhost/g' /var/www/html/index.php
-```
-
-6. Test
+5. Test
 
 ```
 curl http://localhost
