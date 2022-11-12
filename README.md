@@ -6,14 +6,6 @@ Here's how to deploy it on CentOS systems:
 
 ## Deploy Pre-Requisites
 
-1. Install FirewallD
-
-```
-sudo yum install -y firewalld
-sudo service firewalld start
-sudo systemctl enable firewalld
-```
-
 ## Deploy and Configure Database
 
 1. Install MariaDB
