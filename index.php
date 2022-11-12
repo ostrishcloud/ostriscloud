@@ -89,7 +89,7 @@
         <section class="slider_area row m0">
             <div class="slider_inner">
                 <div class="camera_caption">
-                    <h2 class="wow fadeInUp animated">A better way to shop online</h2>
+                    <h2 class="wow fadeInUp animated">A better way to shop online Declare</h2>
                     <h5 class="wow fadeIn animated" data-wow-delay="0.3s">Everything  you need in one place</h5>
                     <a class="learn_mor wow fadeInU" data-wow-delay="0.6s" href="#product-list">Show Now!</a>
                 </div>
